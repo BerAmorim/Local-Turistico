@@ -3,14 +3,14 @@
   padding: 0;
 }
 
+:root {
+  font-family: "Open Sans", serif;
+}
+
 main {
   box-sizing: border-box;
   width: 1120px;
   margin: auto;
-}
-
-:root {
-  font-family: "Open Sans", serif;
 }
 
 .headline {
@@ -36,6 +36,16 @@ p, figcaption  {
 figcaption {
   font-style: italic;
   font-weight: 400;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+#divider-1 {
+  margin: 34px 0 64px;
 }
 
 .list, li {
@@ -67,4 +77,8 @@ h3 {
 
 h1, h2, h3 {
   font-weight: bold;
+}
+
+#divider-2 {
+  margin: 40px 0px;
 }
