@@ -1,0 +1,54 @@
+:root {
+  font-family: "Open Sans", serif;
+}
+
+.headline {
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: #E1624F;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p, figcaption  {
+  font-size: 16px;
+}
+
+figcaption {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.list, li {
+  font-weight: bold;
+}
+
+.history {
+  color: #0C51A7;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.couples {
+  color: #591B98;
+}
+
+.family {
+  color: #E5245E;
+}
+.budget {
+  color: #E95E10;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
