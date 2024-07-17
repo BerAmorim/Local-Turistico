@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: auto;
+}
+
 :root {
   font-family: "Open Sans", serif;
 }
@@ -11,6 +22,11 @@
 
 h1 {
   font-size: 36px;
+}
+
+section img {
+  border-radius: 28px;
+  width: 100%;
 }
 
 p, figcaption  {
