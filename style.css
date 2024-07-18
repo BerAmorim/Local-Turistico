@@ -8,14 +8,10 @@
   line-height: normal;
 }
 
-body {
-  padding: 88px 80px 40px;
-}
-
 main {
   box-sizing: border-box;
-  width: 1120px;
-  margin: auto;
+  max-width: 1120px;
+  margin: 88px auto 40px;
 }
 
 .headline {
@@ -158,6 +154,7 @@ h1, h2, h3 {
 footer {
   text-align: center;
   margin-top: 65px;
+  margin-bottom: 8px;
 }
 
 footer img {
