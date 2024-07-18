@@ -5,6 +5,11 @@
 
 :root {
   font-family: "Open Sans", serif;
+  line-height: normal;
+}
+
+body {
+  padding: 88px 80px 40px;
 }
 
 main {
@@ -14,19 +19,27 @@ main {
 }
 
 .headline {
-  font-weight: 700;
+  font-weight: bold;
+  line-height: 22px;
   text-transform: uppercase;
 
   color: #E1624F;
+
+  margin-bottom: 8px;
 }
 
 h1 {
   font-size: 36px;
+  margin-bottom: 40px;
 }
 
 section img {
   border-radius: 28px;
   width: 100%;
+}
+
+#busan img {
+  margin-bottom: 24px;
 }
 
 p, figcaption  {
@@ -36,6 +49,10 @@ p, figcaption  {
 figcaption {
   font-style: italic;
   font-weight: 400;
+  text-align: center;
+  line-height: 22px;
+
+  margin-top: 24px;
 }
 
 .divider {
@@ -48,6 +65,50 @@ figcaption {
   margin: 34px 0 64px;
 }
 
+.introduction {
+  margin-bottom: 16px;
+}
+
+#destination img {
+  margin-top: 48px;
+}
+.list {
+  margin-bottom: 2px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li.hi {
+  color: #0C51A7; 
+  padding-right: 5px;
+}
+
+ul li.couples::before {
+  content: '•';
+  color: #591B98;
+  padding-right: 5px; 
+}
+
+ul li.family::before {
+  content: '•'; 
+  color: #E5245E;
+  padding-right: 5px;
+}
+
+ul li.budget::before {
+  content: '•';
+  color: #E95E10;
+  padding-right: 5px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+
 .list, li {
   font-weight: bold;
 }
@@ -58,10 +119,17 @@ figcaption {
 
 h2 {
   font-size: 32px;
+  margin-bottom: 8px;
 }
 
 h3 {
   font-size: 28px;
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+.description {
+  margin-top: 4px;
 }
 
 .couples {
@@ -81,4 +149,17 @@ h1, h2, h3 {
 
 #divider-2 {
   margin: 40px 0px;
+}
+
+.resume {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 65px;
+}
+
+footer img {
+  vertical-align: middle;
 }
